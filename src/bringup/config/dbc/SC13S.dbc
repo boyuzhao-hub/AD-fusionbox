@@ -1,0 +1,109 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYNNNNNNNNNN/4/%%%/4/'%**4NNN///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: SensorCluster CANalyser
+VAL_TABLE_ CLU_TYPE_Tabelle 15 "NOT DEFINED" 14 "RESERVED" 13 "RESERVED" 12 "RESERVED" 11 "PISP1(2x)+PSIP2+A1(2x)+A2" 10 "PISP1(2x)+A1(2x)+A2" 9 "PISP1(2x)+A1+A2" 8 "PSIP1(2x)+A1" 7 "RESERVED" 6 "RESERVED" 5 "PSIP1+A1(2x)" 4 "PSIP1+A1+A2+PSIP2" 3 "PSIP1+A1(2x)+A2" 2 "PSIP1+A1+A2" 1 "PSIP1+A1" 0 "NOT ALLOWED" ;
+VAL_TABLE_ PSIPP1_STAT_Tabelle 3 "RESERVED" 2 "PSIPP1_FAULT" 1 "PSIPP1_SNV" 0 "PSIPP1_INRANGE" ;
+VAL_TABLE_ A2_STAT_Tabelle 3 "RESERVED" 2 "A2_FAULT" 1 "A2_SNV" 0 "A2_INRANGE" ;
+VAL_TABLE_ A1_STAT_Tabelle 3 "RESERVED" 2 "A1_FAULT" 1 "A1_SNV" 0 "A1_INRANGE" ;
+VAL_TABLE_ PSIP1_STAT_Tabelle 3 "RESERVED" 2 "PSIP1_FAULT" 1 "PISP1_SNV" 0 "PSIP1_INRANGE" ;
+
+
+BO_ 380 CLU_ID7: 8 SensorCluster
+ SG_ PRT : 0|16@1+ (0.01,-327.68) [-327.68|327.67] "°/s" Vector__XXX
+ SG_ PRT_SNA : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PRT_RESERVED : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PRT_INIT : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PRT_FAILURE : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RES_CLU_ID7_1 : 16|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RES_CLU_ID7_2 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNZ_SNA : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNZ_RESERVED : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNZ_FAILURE : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNZ_INIT : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNZ : 32|16@1+ (0.0002,-6.55) [-6.55|6.557] "g" Vector__XXX
+ SG_ ALIV_CLU_ID7 : 48|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CHKSUM_CLU_ID7 : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 376 CLU_ID4: 8 SensorCluster
+ SG_ RRT : 0|16@1+ (0.01,-327.68) [-327.68|327.67] "°/s" Vector__XXX
+ SG_ RRT_SNA : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RRT_RESERVED : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RRT_FAILURE : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RRT_INIT : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DEL_ERR_MEM_STATUS : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DIAG_BYTE_NR : 16|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DIAG_COD_CLU : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNX_FAILURE : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNX_SNA : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CHKSUM_CLU_ID4 : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNX_INIT : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNX_RESERVED : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNX : 32|16@1+ (0.0002,-6.55) [-6.55|6.557] "g" Vector__XXX
+ SG_ ALIV_CLU_ID4 : 48|4@1+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 372 CLU_ID1: 8 SensorCluster
+ SG_ YWRT : 0|16@1+ (0.01,-327.68) [-327.68|327.67] "°/s" Vector__XXX
+ SG_ YWRT_SNA : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ YWRT_RESERVED : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ YWRT_FAILURE : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ YWRT_INIT : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ STAT_UNDER_VOLT : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ STAT_OVER_VOLT : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ACLNY_SNA : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ STAT_SYNC_UNDER : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ STAT_SYNC_FAIL : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RES_CLU_ID1_1 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNY_FAILURE : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CHKSUM_CLU_ID1 : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNY_INIT : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNY_RESERVED : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACLNY : 32|16@1+ (0.0002,-6.55) [-6.55|6.557] "g" Vector__XXX
+ SG_ ALIV_CLU_ID1 : 48|4@1+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 368 SYNC_CLU: 8 Vector__XXX
+ SG_ DEL_ERR_MEM : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DIAG_OBJ_COUNT_CLU : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CHKSUM_SYNC_CLU : 56|8@1+ (1,0) [0|0] ""  SensorCluster
+ SG_ MESS_COUNT_CLU : 48|4@1+ (1,0) [0|0] ""  SensorCluster
+ SG_ RESET : 22|1@1+ (1,0) [0|0] ""  SensorCluster
+ SG_ KEEP_QUIET : 21|1@1+ (1,0) [0|0] ""  SensorCluster
+
+
+
+EV_ ACCEL_EMV_ALARM: 0 [0|1] "" 0 1 DUMMY_NODE_VECTOR3 Vector__XXX;
+
+CM_ BU_ CANalyser "CANalyser ist der übergeordnete Netzknoten dieser Datenbasis";
+
