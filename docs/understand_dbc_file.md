@@ -32,7 +32,7 @@ The following fields are normally used in DBC file. For Python programming, [```
 - **VAL_TABLE_** (Value Table) A table that for global lookup.
   - Syntax ```VAL_TABLE_ [TableName] [Value1] "[String1]" [Value2] "[String2]" ...;```
 
-<br />
+<br/>
 <small>
 A good reference: <a href="https://www.csselectronics.com/pages/can-dbc-file-database-intro">CAN DBC File Introduction</a>
 </small>

@@ -16,37 +16,39 @@ An omnidirectional **Sensors - Vehicle Data Fusion Box** based on ROS2 Humble
 <td class="tg-0pky">1 &times; Jetson AGX Orin 64 GB</td>
 <td class="tg-0pky">
 <a href="https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/index.html" target="_blank">Jetson AGX Orin Guide</a>
+<br/>
+<a href="./docs/hardware/Computer_Jetson_AGX_Orin_Module_Carrier_Board_Specification.pdf" target="_blank">Jetson AGX Orin Board Specifications</a>
 </td>
 </tr>
 <tr>
 <td class="tg-0pky">1 &times; ARK 2251</td>
 <td class="tg-0pky">
-<a href="https://www.advantech.com/en-us/products/ark-2000_series_embedded_box_pcs/ark-2251/mod_de661626-e644-4813-a0f0-be7f006923c1">ARK2251 Datasheet</a>
+<a href="./docs/hardware/Computer_ARK_2251_Datasheet.pdf">ARK2251 Datasheet</a>
 </td>
 </tr>
 <tr>
 <td class="tg-bold" rowspan="4"><b>Sensors</b></td>
 <td class="tg-0pky">4 &times; Continental SRR3-A Short Range Radar</td>
 <td class="tg-0pky">
-<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiM1Yjs94qTAxVGgv0HHbzaOP0QFnoECBAQAQ&url=https%3A%2F%2Fwww.freecon.co.kr%2F%3Fact%3Dcommon.download_goods%26fseq%3D587%26u%3Dmanual&usg=AOvVaw2fEY5i-01AC0OZ5UTRRtOW&opi=89978449">SRR308 Datasheet</a>
+<a href="./docs/hardware/Sensor_SRR308_Datasheet.pdf">SRR308 Datasheet</a>
 </td>
 </tr>
 <tr>
 <td class="tg-0pky">4 &times; ZED X Stereo Camera (with IMU)</td>
 <td class="tg-0pky">
-<a href="https://cdn.sanity.io/files/s18ewfw4/staging/ec78a504b36ab95d6620ac720ffa5feaa2e8948b.pdf/ZED%20X%20Datasheet%20v1.2.pdf">ZED X Datasheet</a>
+<a href="./docs/hardware/Sensor_ZED_X_Datasheet.pdf">ZED X Datasheet</a>
 </td>
 </tr>
 <tr>
 <td class="tg-0pky">1 &times; Continental SC13S 6-DoF IMU</td>
 <td class="tg-0pky">
-<a href="https://www.continental-aftermarket.com/media/3746/continental_inertialsensor6dof_salessheet_v1.pdf">SC13S Datasheet</a>
+<a href="./docs/hardware/Sensor_IMU_SC13S.pdf">SC13S Datasheet</a>
 </td>
 </tr>
 <tr>
 <td class="tg-0pky">2 &times; RTK GNSS (Syslogic RMLA4AGX64-h202S)</td>
 <td class="tg-0pky">
-<a href="https://www.syslogic.com/jetson-agx-orin/rugged-edge-ai-computer-rpc-rml-a4agx">Syslogic RMLA4AGX64 Datasheet</a>
+<a href="./docs/hardware/Sensor_GNSS_ accessing_GNSS_on_Syslogic_systems.pdf">Syslogic RMLA4AGX64 Datasheet</a>
 </td>
 </tr>
 </tbody>
