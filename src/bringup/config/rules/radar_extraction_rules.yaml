@@ -1,0 +1,36 @@
+radar_srr308:
+  dbc_file: "./dbc/SRR308_CAN_Database_ID0-7.dbc"
+
+  messages_to_extract:
+
+    General_object_information:
+      - Obj_ID                  # Object ID
+      - Obj_DistLong            # Object longitudinal displacement              (m/s) 
+      - Obj_DistLat             # Object lateral displacement                   (m/s)
+      - Obj_VrelLong            # Object relative longitudinal velocity         (m/s)
+      - Obj_VrelLat             # Object relative lateral velocity              (m/s)
+      - Obj_RCS                 # Object RCS value (radar cross section)        (dBm2)
+      - Obj_DynProp             # Object dynamic property                       (6 "Stopped" 5 "Unknown" 4 "Crossing right" 3 "Crossing left" 2 "Oncoming" 1 "Stationary" 0 "Moving" )
+
+
+    Quality_object_information:
+      - Obj_ID                  # Object ID
+      - Obj_ProbExist           # Object probability of existence
+      - Obj_MeasState           # Object measurement status 
+      - Obj_DistLong_rms        # Object longitudinal distance standard deviation
+      - Obj_DistLat_rms         # Object lateral distance standard deviation
+      - Obj_VrelLong_rms        # Object relative longitudinal velocity standard deviation
+      - Obj_VrelLat_rms         # Object relative lateral velocity standard deviation
+      - Obj_ArelLong_rms        # Object relative longitudinal acceleration standard deviation
+      - Obj_ArelLat_rms         # Object relative lateral acceleration standard deviation
+      - Obj_Orientation_rms     # Object orientation angle
+
+    
+    Extended_object_information:
+      - Obj_ID                  # Object ID
+      - Obj_Class               # Object classification                          (6 "Wide" 5 "Bicycle" 4 "Motorcycle" 3 "Pedestrian" 2 "Truck" 1 "Car" 0 "Point")
+      - Obj_ArelLong            # Object relative longitudinal acceleration      (m/s2)
+      - Obj_ArelLat             # Object relative lateral acceleration           (m/s2)
+      - Obj_Length              # Object length                                  (m)
+      - Obj_Width               # Object width                                   (m)
+      - Obj_OrientationAngle    # Object orientation angle                       (deg)      
