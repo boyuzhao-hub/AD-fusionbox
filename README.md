@@ -52,6 +52,14 @@ A sensors - vehicle data fusion box based on ROS2 Humble
 </tbody>
 </table>
 
+## Topology
+### Hardware Topology
+![Hardware Topology](./docs/assets/hardware_topology.drawio.svg)
+
+### Software Architecture
+To be finised.
+
+
 ## This repo
 - msgs: All self-defined ```.msg```, ```.srv```, ```.action```.
 - drivers: Read and publish ROS2 Topic of ZED SDK, Radars, GNSS, etc data.
@@ -61,4 +69,4 @@ A sensors - vehicle data fusion box based on ROS2 Humble
 - offline: Offline ros2bag data analysis.
 
 ## Documents
-- [Understand DBC File](src/bringup/config/understand_dbc_file.md)
+- [Understand DBC File](./docs/understand_dbc_file.md)
