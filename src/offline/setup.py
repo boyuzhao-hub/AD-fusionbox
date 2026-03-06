@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'streetlive_offline'
+package_name = 'offline'
 
 setup(
     name=package_name,

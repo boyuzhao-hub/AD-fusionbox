@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'streetlive_drivers'
+package_name = 'drivers'
 
 setup(
     name=package_name,

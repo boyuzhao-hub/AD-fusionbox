@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'streetlive_perception'
+package_name = 'perception'
 
 setup(
     name=package_name,

@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'streetlive_localization'
+package_name = 'localization'
 
 setup(
     name=package_name,

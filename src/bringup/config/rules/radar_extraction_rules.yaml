@@ -3,7 +3,7 @@ radar_srr308:
 
   messages_to_extract:
 
-    General_object_information:
+    Obj_1_General:              # General_object_information
       - Obj_ID                  # Object ID
       - Obj_DistLong            # Object longitudinal displacement              (m/s) 
       - Obj_DistLat             # Object lateral displacement                   (m/s)
@@ -13,7 +13,7 @@ radar_srr308:
       - Obj_DynProp             # Object dynamic property                       (6 "Stopped" 5 "Unknown" 4 "Crossing right" 3 "Crossing left" 2 "Oncoming" 1 "Stationary" 0 "Moving" )
 
 
-    Quality_object_information:
+    Obj_2_Quality:              # Quality_object_information
       - Obj_ID                  # Object ID
       - Obj_ProbExist           # Object probability of existence
       - Obj_MeasState           # Object measurement status 
@@ -26,7 +26,7 @@ radar_srr308:
       - Obj_Orientation_rms     # Object orientation angle
 
     
-    Extended_object_information:
+    Obj_3_Extended:             # Extended_object_information
       - Obj_ID                  # Object ID
       - Obj_Class               # Object classification                          (6 "Wide" 5 "Bicycle" 4 "Motorcycle" 3 "Pedestrian" 2 "Truck" 1 "Car" 0 "Point")
       - Obj_ArelLong            # Object relative longitudinal acceleration      (m/s2)
