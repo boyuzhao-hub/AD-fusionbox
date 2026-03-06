@@ -37,25 +37,25 @@ BU_: ExternalUnit SRR308
 
 
 BO_ 881 YawRateInformation_7: 2 ExternalUnit
- SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "°/s"  SRR308
+ SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "ï¿½/s"  SRR308
 
 BO_ 865 YawRateInformation_6: 2 ExternalUnit
- SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "°/s"  SRR308
+ SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "ï¿½/s"  SRR308
 
 BO_ 849 YawRateInformation_5: 2 ExternalUnit
- SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "°/s"  SRR308
+ SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "ï¿½/s"  SRR308
 
 BO_ 833 YawRateInformation_4: 2 ExternalUnit
- SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "°/s"  SRR308
+ SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "ï¿½/s"  SRR308
 
 BO_ 817 YawRateInformation_3: 2 ExternalUnit
- SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "°/s"  SRR308
+ SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "ï¿½/s"  SRR308
 
 BO_ 801 YawRateInformation_2: 2 ExternalUnit
- SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "°/s"  SRR308
+ SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "ï¿½/s"  SRR308
 
 BO_ 785 YawRateInformation_1: 2 ExternalUnit
- SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "°/s"  SRR308
+ SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "ï¿½/s"  SRR308
 
 BO_ 1904 VersionID_7: 4 SRR308
  SG_ Version_ExtendedRange : 25|1@0+ (1,0) [0|0] ""  ExternalUnit
@@ -451,66 +451,66 @@ BO_ 1566 Obj_4_Warning_1: 4 SRR308
 
 BO_ 1661 Obj_3_Extended_7: 8 SRR308
  SG_ Obj_Class : 26|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/sï¿½"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_OrientationAngle : 39|10@0+ (0.4,-180) [-180|229.2] "deg"  ExternalUnit
  SG_ Obj_Width : 63|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
  SG_ Obj_Length : 55|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
- SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/sï¿½"  ExternalUnit
 
 BO_ 1645 Obj_3_Extended_6: 8 SRR308
  SG_ Obj_Class : 26|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/sï¿½"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_OrientationAngle : 39|10@0+ (0.4,-180) [-180|229.2] "deg"  ExternalUnit
  SG_ Obj_Width : 63|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
  SG_ Obj_Length : 55|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
- SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/sï¿½"  ExternalUnit
 
 BO_ 1629 Obj_3_Extended_5: 8 SRR308
  SG_ Obj_Class : 26|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/sï¿½"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_OrientationAngle : 39|10@0+ (0.4,-180) [-180|229.2] "deg"  ExternalUnit
  SG_ Obj_Width : 63|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
  SG_ Obj_Length : 55|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
- SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/sï¿½"  ExternalUnit
 
 BO_ 1613 Obj_3_Extended_4: 8 SRR308
  SG_ Obj_Class : 26|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/sï¿½"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_OrientationAngle : 39|10@0+ (0.4,-180) [-180|229.2] "deg"  ExternalUnit
  SG_ Obj_Width : 63|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
  SG_ Obj_Length : 55|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
- SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/sï¿½"  ExternalUnit
 
 BO_ 1597 Obj_3_Extended_3: 8 SRR308
  SG_ Obj_Class : 26|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/sï¿½"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_OrientationAngle : 39|10@0+ (0.4,-180) [-180|229.2] "deg"  ExternalUnit
  SG_ Obj_Width : 63|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
  SG_ Obj_Length : 55|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
- SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/sï¿½"  ExternalUnit
 
 BO_ 1581 Obj_3_Extended_2: 8 SRR308
  SG_ Obj_Class : 26|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/sï¿½"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_OrientationAngle : 39|10@0+ (0.4,-180) [-180|229.2] "deg"  ExternalUnit
  SG_ Obj_Width : 63|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
  SG_ Obj_Length : 55|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
- SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/sï¿½"  ExternalUnit
 
 BO_ 1565 Obj_3_Extended_1: 8 SRR308
  SG_ Obj_Class : 26|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/sï¿½"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_OrientationAngle : 39|10@0+ (0.4,-180) [-180|229.2] "deg"  ExternalUnit
  SG_ Obj_Width : 63|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
  SG_ Obj_Length : 55|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
- SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/sï¿½"  ExternalUnit
 
 BO_ 1660 Obj_2_Quality_7: 7 SRR308
  SG_ Obj_ProbOfExist : 55|3@0+ (1,0) [0|7] ""  ExternalUnit
@@ -598,7 +598,7 @@ BO_ 1564 Obj_2_Quality_1: 7 SRR308
 
 BO_ 1659 Obj_1_General_7: 8 SRR308
  SG_ Obj_DynProp : 50|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Obj_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
@@ -607,7 +607,7 @@ BO_ 1659 Obj_1_General_7: 8 SRR308
 
 BO_ 1643 Obj_1_General_6: 8 SRR308
  SG_ Obj_DynProp : 50|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Obj_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
@@ -616,7 +616,7 @@ BO_ 1643 Obj_1_General_6: 8 SRR308
 
 BO_ 1627 Obj_1_General_5: 8 SRR308
  SG_ Obj_DynProp : 50|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Obj_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
@@ -625,7 +625,7 @@ BO_ 1627 Obj_1_General_5: 8 SRR308
 
 BO_ 1611 Obj_1_General_4: 8 SRR308
  SG_ Obj_DynProp : 50|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Obj_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
@@ -634,7 +634,7 @@ BO_ 1611 Obj_1_General_4: 8 SRR308
 
 BO_ 1595 Obj_1_General_3: 8 SRR308
  SG_ Obj_DynProp : 50|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Obj_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
@@ -643,7 +643,7 @@ BO_ 1595 Obj_1_General_3: 8 SRR308
 
 BO_ 1579 Obj_1_General_2: 8 SRR308
  SG_ Obj_DynProp : 50|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Obj_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
@@ -652,7 +652,7 @@ BO_ 1579 Obj_1_General_2: 8 SRR308
 
 BO_ 1563 Obj_1_General_1: 8 SRR308
  SG_ Obj_DynProp : 50|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Obj_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
@@ -1508,7 +1508,7 @@ BO_ 1810 Cluster_2_Quality_1: 7 SRR308
 
 BO_ 1905 Cluster_1_General_7: 8 SRR308
  SG_ Cluster_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
- SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Cluster_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
  SG_ Cluster_ID : 7|8@0+ (1,0) [0|255] "1"  ExternalUnit
  SG_ Cluster_VrelLong : 39|10@0+ (0.25,-128) [-128|127.75] "m/s"  ExternalUnit
@@ -1516,7 +1516,7 @@ BO_ 1905 Cluster_1_General_7: 8 SRR308
 
 BO_ 1889 Cluster_1_General_6: 8 SRR308
  SG_ Cluster_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
- SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Cluster_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
  SG_ Cluster_ID : 7|8@0+ (1,0) [0|255] "1"  ExternalUnit
  SG_ Cluster_VrelLong : 39|10@0+ (0.25,-128) [-128|127.75] "m/s"  ExternalUnit
@@ -1524,7 +1524,7 @@ BO_ 1889 Cluster_1_General_6: 8 SRR308
 
 BO_ 1873 Cluster_1_General_5: 8 SRR308
  SG_ Cluster_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
- SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Cluster_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
  SG_ Cluster_ID : 7|8@0+ (1,0) [0|255] "1"  ExternalUnit
  SG_ Cluster_VrelLong : 39|10@0+ (0.25,-128) [-128|127.75] "m/s"  ExternalUnit
@@ -1532,7 +1532,7 @@ BO_ 1873 Cluster_1_General_5: 8 SRR308
 
 BO_ 1857 Cluster_1_General_4: 8 SRR308
  SG_ Cluster_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
- SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Cluster_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
  SG_ Cluster_ID : 7|8@0+ (1,0) [0|255] "1"  ExternalUnit
  SG_ Cluster_VrelLong : 39|10@0+ (0.25,-128) [-128|127.75] "m/s"  ExternalUnit
@@ -1540,7 +1540,7 @@ BO_ 1857 Cluster_1_General_4: 8 SRR308
 
 BO_ 1841 Cluster_1_General_3: 8 SRR308
  SG_ Cluster_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
- SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Cluster_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
  SG_ Cluster_ID : 7|8@0+ (1,0) [0|255] "1"  ExternalUnit
  SG_ Cluster_VrelLong : 39|10@0+ (0.25,-128) [-128|127.75] "m/s"  ExternalUnit
@@ -1548,7 +1548,7 @@ BO_ 1841 Cluster_1_General_3: 8 SRR308
 
 BO_ 1825 Cluster_1_General_2: 8 SRR308
  SG_ Cluster_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
- SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Cluster_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
  SG_ Cluster_ID : 7|8@0+ (1,0) [0|255] "1"  ExternalUnit
  SG_ Cluster_VrelLong : 39|10@0+ (0.25,-128) [-128|127.75] "m/s"  ExternalUnit
@@ -1556,7 +1556,7 @@ BO_ 1825 Cluster_1_General_2: 8 SRR308
 
 BO_ 1809 Cluster_1_General_1: 8 SRR308
  SG_ Cluster_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
- SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Cluster_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
  SG_ Cluster_ID : 7|8@0+ (1,0) [0|255] "1"  ExternalUnit
  SG_ Cluster_VrelLong : 39|10@0+ (0.25,-128) [-128|127.75] "m/s"  ExternalUnit
@@ -1611,12 +1611,12 @@ BO_ 1548 Obj_2_Quality_0: 7 SRR308
 
 BO_ 1549 Obj_3_Extended_0: 8 SRR308
  SG_ Obj_Class : 26|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLat : 20|9@0+ (0.01,-2.5) [-2.5|2.61] "m/sï¿½"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_OrientationAngle : 39|10@0+ (0.4,-180) [-180|229.2] "deg"  ExternalUnit
  SG_ Obj_Width : 63|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
  SG_ Obj_Length : 55|8@0+ (0.2,0) [0|51] "m"  ExternalUnit
- SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/s²"  ExternalUnit
+ SG_ Obj_ArelLong : 15|11@0+ (0.01,-10) [-10|10.47] "m/sï¿½"  ExternalUnit
 
 BO_ 1026 CollDetRegionState: 8 SRR308
  SG_ CollDetRegState_WarningLevel : 4|2@0+ (1,0) [0|3] ""  ExternalUnit
@@ -1760,7 +1760,7 @@ BO_ 768 SpeedInformation_0: 2 ExternalUnit
  SG_ RadarDevice_SpeedDirection : 7|2@0+ (1,0) [0|2] ""  SRR308
 
 BO_ 769 YawRateInformation_0: 2 ExternalUnit
- SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "°/s"  SRR308
+ SG_ RadarDevice_YawRate : 7|16@0+ (0.01,-327.68) [-327.68|327.66] "ï¿½/s"  SRR308
 
 BO_ 1024 CollDetCfg_0: 2 ExternalUnit
  SG_ CollDetCfg_ClearRegions : 7|1@0+ (1,0) [0|1] ""  SRR308
@@ -1796,7 +1796,7 @@ BO_ 1546 Obj_0_Status_0: 4 SRR308
 
 BO_ 1547 Obj_1_General_0: 8 SRR308
  SG_ Obj_DynProp : 50|3@0+ (1,0) [0|7] ""  ExternalUnit
- SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Obj_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Obj_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
  SG_ Obj_ID : 7|8@0+ (1,0) [0|255] ""  ExternalUnit
  SG_ Obj_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
@@ -1811,7 +1811,7 @@ BO_ 1792 VersionID_0: 4 SRR308
 
 BO_ 1793 Cluster_1_General_0: 8 SRR308
  SG_ Cluster_VrelLat : 45|9@0+ (0.25,-64) [-64|63.75] "m/s"  ExternalUnit
- SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBm²"  ExternalUnit
+ SG_ Cluster_RCS : 63|8@0+ (0.5,-64) [-64|63.5] "dBmï¿½"  ExternalUnit
  SG_ Cluster_DistLong : 15|13@0+ (0.2,-500) [-500|1138.2] "m"  ExternalUnit
  SG_ Cluster_ID : 7|8@0+ (1,0) [0|255] "1"  ExternalUnit
  SG_ Cluster_VrelLong : 39|10@0+ (0.25,-128) [-128|127.75] "m/s"  ExternalUnit
@@ -2889,8 +2889,8 @@ VAL_ 1581 Obj_Class 7 "Description for the value '0x7'" 6 "Wide" 5 "Bicycle" 4 "
 VAL_ 1565 Obj_Class 7 "Description for the value '0x7'" 6 "Wide" 5 "Bicycle" 4 "Motorcycle" 3 "Pedestrian" 2 "Truck" 1 "Car" 0 "Point" ;
 VAL_ 1660 Obj_ProbOfExist 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%" 1 "<25%" 0 "invalid" ;
 VAL_ 1660 Obj_MeasState 5 "New from merge" 4 "Deleted for merge" 3 "Predicted" 2 "Measured" 1 "New" 0 "Deleted" ;
-VAL_ 1660 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
-VAL_ 1660 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
+VAL_ 1660 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
+VAL_ 1660 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
 VAL_ 1660 Obj_VrelLong_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1660 Obj_VrelLat_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1660 Obj_Orientation_rms 31 "Invalid" 30 "<180.000 deg" 29 "<126.881 deg" 28 "<89.437 deg" 27 "<63.044 deg" 26 "<44.439 deg" 25 "<31.325 deg" 24 "<22.081 deg" 23 "<15.565 deg" 22 "<10.971 deg" 21 "<7.734 deg" 20 "<5.451 deg" 19 "<3.843 deg" 18 "<2.709 deg" 17 "<1.909 deg" 16 "<1.346 deg" 15 "<0.949 deg" 14 "<0.669 deg" 13 "<0.471 deg" 12 "<0.332 deg" 11 "<0.234 deg" 10 "<0.165 deg" 9 "<0.116 deg" 8 "<0.082 deg" 7 "<0.058 deg" 6 "<0.041 deg" 5 "<0.029 deg" 4 "<0.020 deg" 3 "<0.014 deg" 2 "<0.010 deg" 1 "<0.007 deg" 0 "<0.005 deg" ;
@@ -2898,8 +2898,8 @@ VAL_ 1660 Obj_DistLong_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 
 VAL_ 1660 Obj_DistLat_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 m" 27 "<4.676 m" 26 "<3.630 m" 25 "<2.817 m" 24 "<2.187 m" 23 "<1.697 m" 22 "<1.317 m" 21 "<1.023 m" 20 "<0.794 m" 19 "<0.616 m" 18 "<0.478 m" 17 "<0.371 m" 16 "<0.288 m" 15 "<0.224 m" 14 "<0.174 m" 13 "<0.135 m" 12 "<0.105 m" 11 "<0.081 m" 10 "<0.063 m" 9 "<0.049 m" 8 "<0.038 m" 7 "<0.029 m" 6 "<0.023 m" 5 "<0.018 m" 4 "<0.014 m" 3 "<0.011 m" 2 "<0.008 m" 1 "<0.006 m" 0 "<0.005 m" ;
 VAL_ 1644 Obj_ProbOfExist 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%" 1 "<25%" 0 "invalid" ;
 VAL_ 1644 Obj_MeasState 5 "New from merge" 4 "Deleted for merge" 3 "Predicted" 2 "Measured" 1 "New" 0 "Deleted" ;
-VAL_ 1644 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
-VAL_ 1644 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
+VAL_ 1644 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
+VAL_ 1644 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
 VAL_ 1644 Obj_VrelLong_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1644 Obj_VrelLat_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1644 Obj_Orientation_rms 31 "Invalid" 30 "<180.000 deg" 29 "<126.881 deg" 28 "<89.437 deg" 27 "<63.044 deg" 26 "<44.439 deg" 25 "<31.325 deg" 24 "<22.081 deg" 23 "<15.565 deg" 22 "<10.971 deg" 21 "<7.734 deg" 20 "<5.451 deg" 19 "<3.843 deg" 18 "<2.709 deg" 17 "<1.909 deg" 16 "<1.346 deg" 15 "<0.949 deg" 14 "<0.669 deg" 13 "<0.471 deg" 12 "<0.332 deg" 11 "<0.234 deg" 10 "<0.165 deg" 9 "<0.116 deg" 8 "<0.082 deg" 7 "<0.058 deg" 6 "<0.041 deg" 5 "<0.029 deg" 4 "<0.020 deg" 3 "<0.014 deg" 2 "<0.010 deg" 1 "<0.007 deg" 0 "<0.005 deg" ;
@@ -2907,8 +2907,8 @@ VAL_ 1644 Obj_DistLong_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 
 VAL_ 1644 Obj_DistLat_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 m" 27 "<4.676 m" 26 "<3.630 m" 25 "<2.817 m" 24 "<2.187 m" 23 "<1.697 m" 22 "<1.317 m" 21 "<1.023 m" 20 "<0.794 m" 19 "<0.616 m" 18 "<0.478 m" 17 "<0.371 m" 16 "<0.288 m" 15 "<0.224 m" 14 "<0.174 m" 13 "<0.135 m" 12 "<0.105 m" 11 "<0.081 m" 10 "<0.063 m" 9 "<0.049 m" 8 "<0.038 m" 7 "<0.029 m" 6 "<0.023 m" 5 "<0.018 m" 4 "<0.014 m" 3 "<0.011 m" 2 "<0.008 m" 1 "<0.006 m" 0 "<0.005 m" ;
 VAL_ 1628 Obj_ProbOfExist 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%" 1 "<25%" 0 "invalid" ;
 VAL_ 1628 Obj_MeasState 5 "New from merge" 4 "Deleted for merge" 3 "Predicted" 2 "Measured" 1 "New" 0 "Deleted" ;
-VAL_ 1628 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
-VAL_ 1628 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
+VAL_ 1628 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
+VAL_ 1628 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
 VAL_ 1628 Obj_VrelLong_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1628 Obj_VrelLat_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1628 Obj_Orientation_rms 31 "Invalid" 30 "<180.000 deg" 29 "<126.881 deg" 28 "<89.437 deg" 27 "<63.044 deg" 26 "<44.439 deg" 25 "<31.325 deg" 24 "<22.081 deg" 23 "<15.565 deg" 22 "<10.971 deg" 21 "<7.734 deg" 20 "<5.451 deg" 19 "<3.843 deg" 18 "<2.709 deg" 17 "<1.909 deg" 16 "<1.346 deg" 15 "<0.949 deg" 14 "<0.669 deg" 13 "<0.471 deg" 12 "<0.332 deg" 11 "<0.234 deg" 10 "<0.165 deg" 9 "<0.116 deg" 8 "<0.082 deg" 7 "<0.058 deg" 6 "<0.041 deg" 5 "<0.029 deg" 4 "<0.020 deg" 3 "<0.014 deg" 2 "<0.010 deg" 1 "<0.007 deg" 0 "<0.005 deg" ;
@@ -2916,8 +2916,8 @@ VAL_ 1628 Obj_DistLong_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 
 VAL_ 1628 Obj_DistLat_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 m" 27 "<4.676 m" 26 "<3.630 m" 25 "<2.817 m" 24 "<2.187 m" 23 "<1.697 m" 22 "<1.317 m" 21 "<1.023 m" 20 "<0.794 m" 19 "<0.616 m" 18 "<0.478 m" 17 "<0.371 m" 16 "<0.288 m" 15 "<0.224 m" 14 "<0.174 m" 13 "<0.135 m" 12 "<0.105 m" 11 "<0.081 m" 10 "<0.063 m" 9 "<0.049 m" 8 "<0.038 m" 7 "<0.029 m" 6 "<0.023 m" 5 "<0.018 m" 4 "<0.014 m" 3 "<0.011 m" 2 "<0.008 m" 1 "<0.006 m" 0 "<0.005 m" ;
 VAL_ 1612 Obj_ProbOfExist 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%" 1 "<25%" 0 "invalid" ;
 VAL_ 1612 Obj_MeasState 5 "New from merge" 4 "Deleted for merge" 3 "Predicted" 2 "Measured" 1 "New" 0 "Deleted" ;
-VAL_ 1612 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
-VAL_ 1612 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
+VAL_ 1612 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
+VAL_ 1612 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
 VAL_ 1612 Obj_VrelLong_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1612 Obj_VrelLat_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1612 Obj_Orientation_rms 31 "Invalid" 30 "<180.000 deg" 29 "<126.881 deg" 28 "<89.437 deg" 27 "<63.044 deg" 26 "<44.439 deg" 25 "<31.325 deg" 24 "<22.081 deg" 23 "<15.565 deg" 22 "<10.971 deg" 21 "<7.734 deg" 20 "<5.451 deg" 19 "<3.843 deg" 18 "<2.709 deg" 17 "<1.909 deg" 16 "<1.346 deg" 15 "<0.949 deg" 14 "<0.669 deg" 13 "<0.471 deg" 12 "<0.332 deg" 11 "<0.234 deg" 10 "<0.165 deg" 9 "<0.116 deg" 8 "<0.082 deg" 7 "<0.058 deg" 6 "<0.041 deg" 5 "<0.029 deg" 4 "<0.020 deg" 3 "<0.014 deg" 2 "<0.010 deg" 1 "<0.007 deg" 0 "<0.005 deg" ;
@@ -2925,8 +2925,8 @@ VAL_ 1612 Obj_DistLong_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 
 VAL_ 1612 Obj_DistLat_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 m" 27 "<4.676 m" 26 "<3.630 m" 25 "<2.817 m" 24 "<2.187 m" 23 "<1.697 m" 22 "<1.317 m" 21 "<1.023 m" 20 "<0.794 m" 19 "<0.616 m" 18 "<0.478 m" 17 "<0.371 m" 16 "<0.288 m" 15 "<0.224 m" 14 "<0.174 m" 13 "<0.135 m" 12 "<0.105 m" 11 "<0.081 m" 10 "<0.063 m" 9 "<0.049 m" 8 "<0.038 m" 7 "<0.029 m" 6 "<0.023 m" 5 "<0.018 m" 4 "<0.014 m" 3 "<0.011 m" 2 "<0.008 m" 1 "<0.006 m" 0 "<0.005 m" ;
 VAL_ 1596 Obj_ProbOfExist 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%" 1 "<25%" 0 "invalid" ;
 VAL_ 1596 Obj_MeasState 5 "New from merge" 4 "Deleted for merge" 3 "Predicted" 2 "Measured" 1 "New" 0 "Deleted" ;
-VAL_ 1596 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
-VAL_ 1596 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
+VAL_ 1596 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
+VAL_ 1596 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
 VAL_ 1596 Obj_VrelLong_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1596 Obj_VrelLat_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1596 Obj_Orientation_rms 31 "Invalid" 30 "<180.000 deg" 29 "<126.881 deg" 28 "<89.437 deg" 27 "<63.044 deg" 26 "<44.439 deg" 25 "<31.325 deg" 24 "<22.081 deg" 23 "<15.565 deg" 22 "<10.971 deg" 21 "<7.734 deg" 20 "<5.451 deg" 19 "<3.843 deg" 18 "<2.709 deg" 17 "<1.909 deg" 16 "<1.346 deg" 15 "<0.949 deg" 14 "<0.669 deg" 13 "<0.471 deg" 12 "<0.332 deg" 11 "<0.234 deg" 10 "<0.165 deg" 9 "<0.116 deg" 8 "<0.082 deg" 7 "<0.058 deg" 6 "<0.041 deg" 5 "<0.029 deg" 4 "<0.020 deg" 3 "<0.014 deg" 2 "<0.010 deg" 1 "<0.007 deg" 0 "<0.005 deg" ;
@@ -2934,8 +2934,8 @@ VAL_ 1596 Obj_DistLong_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 
 VAL_ 1596 Obj_DistLat_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 m" 27 "<4.676 m" 26 "<3.630 m" 25 "<2.817 m" 24 "<2.187 m" 23 "<1.697 m" 22 "<1.317 m" 21 "<1.023 m" 20 "<0.794 m" 19 "<0.616 m" 18 "<0.478 m" 17 "<0.371 m" 16 "<0.288 m" 15 "<0.224 m" 14 "<0.174 m" 13 "<0.135 m" 12 "<0.105 m" 11 "<0.081 m" 10 "<0.063 m" 9 "<0.049 m" 8 "<0.038 m" 7 "<0.029 m" 6 "<0.023 m" 5 "<0.018 m" 4 "<0.014 m" 3 "<0.011 m" 2 "<0.008 m" 1 "<0.006 m" 0 "<0.005 m" ;
 VAL_ 1580 Obj_ProbOfExist 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%" 1 "<25%" 0 "invalid" ;
 VAL_ 1580 Obj_MeasState 5 "New from merge" 4 "Deleted for merge" 3 "Predicted" 2 "Measured" 1 "New" 0 "Deleted" ;
-VAL_ 1580 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
-VAL_ 1580 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
+VAL_ 1580 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
+VAL_ 1580 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
 VAL_ 1580 Obj_VrelLong_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1580 Obj_VrelLat_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1580 Obj_Orientation_rms 31 "Invalid" 30 "<180.000 deg" 29 "<126.881 deg" 28 "<89.437 deg" 27 "<63.044 deg" 26 "<44.439 deg" 25 "<31.325 deg" 24 "<22.081 deg" 23 "<15.565 deg" 22 "<10.971 deg" 21 "<7.734 deg" 20 "<5.451 deg" 19 "<3.843 deg" 18 "<2.709 deg" 17 "<1.909 deg" 16 "<1.346 deg" 15 "<0.949 deg" 14 "<0.669 deg" 13 "<0.471 deg" 12 "<0.332 deg" 11 "<0.234 deg" 10 "<0.165 deg" 9 "<0.116 deg" 8 "<0.082 deg" 7 "<0.058 deg" 6 "<0.041 deg" 5 "<0.029 deg" 4 "<0.020 deg" 3 "<0.014 deg" 2 "<0.010 deg" 1 "<0.007 deg" 0 "<0.005 deg" ;
@@ -2943,8 +2943,8 @@ VAL_ 1580 Obj_DistLong_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 
 VAL_ 1580 Obj_DistLat_rms 31 "Invalid" 30 "<10.000 m" 29 "<7.762 m" 28 "<6.025 m" 27 "<4.676 m" 26 "<3.630 m" 25 "<2.817 m" 24 "<2.187 m" 23 "<1.697 m" 22 "<1.317 m" 21 "<1.023 m" 20 "<0.794 m" 19 "<0.616 m" 18 "<0.478 m" 17 "<0.371 m" 16 "<0.288 m" 15 "<0.224 m" 14 "<0.174 m" 13 "<0.135 m" 12 "<0.105 m" 11 "<0.081 m" 10 "<0.063 m" 9 "<0.049 m" 8 "<0.038 m" 7 "<0.029 m" 6 "<0.023 m" 5 "<0.018 m" 4 "<0.014 m" 3 "<0.011 m" 2 "<0.008 m" 1 "<0.006 m" 0 "<0.005 m" ;
 VAL_ 1564 Obj_ProbOfExist 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%" 1 "<25%" 0 "invalid" ;
 VAL_ 1564 Obj_MeasState 5 "New from merge" 4 "Deleted for merge" 3 "Predicted" 2 "Measured" 1 "New" 0 "Deleted" ;
-VAL_ 1564 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
-VAL_ 1564 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
+VAL_ 1564 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
+VAL_ 1564 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
 VAL_ 1564 Obj_VrelLong_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1564 Obj_VrelLat_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1564 Obj_Orientation_rms 31 "Invalid" 30 "<180.000 deg" 29 "<126.881 deg" 28 "<89.437 deg" 27 "<63.044 deg" 26 "<44.439 deg" 25 "<31.325 deg" 24 "<22.081 deg" 23 "<15.565 deg" 22 "<10.971 deg" 21 "<7.734 deg" 20 "<5.451 deg" 19 "<3.843 deg" 18 "<2.709 deg" 17 "<1.909 deg" 16 "<1.346 deg" 15 "<0.949 deg" 14 "<0.669 deg" 13 "<0.471 deg" 12 "<0.332 deg" 11 "<0.234 deg" 10 "<0.165 deg" 9 "<0.116 deg" 8 "<0.082 deg" 7 "<0.058 deg" 6 "<0.041 deg" 5 "<0.029 deg" 4 "<0.020 deg" 3 "<0.014 deg" 2 "<0.010 deg" 1 "<0.007 deg" 0 "<0.005 deg" ;
@@ -3099,8 +3099,8 @@ VAL_ 1826 Cluster_PdH0 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%"
 VAL_ 1810 Cluster_PdH0 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%" 1 "<25%" 0 "invalid" ;
 VAL_ 1548 Obj_ProbOfExist 7 "<=100%" 6 "<99.9%" 5 "<99%" 4 "<90%" 3 "<75%" 2 "<50%" 1 "<25%" 0 "invalid" ;
 VAL_ 1548 Obj_MeasState 5 "New from merge" 4 "Deleted for merge" 3 "Predicted" 2 "Measured" 1 "New" 0 "Deleted" ;
-VAL_ 1548 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
-VAL_ 1548 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/s²" 29 "<7.762 m/s²" 28 "<6.025 m/s²" 27 "<4.676 m/s²" 26 "<3.630 m/s²" 25 "<2.817 m/s²" 24 "<2.187 m/s²" 23 "<1.697 m/s²" 22 "<1.317 m/s²" 21 "<1.023 m/s²" 20 "<0.794 m/s²" 19 "<0.616 m/s²" 18 "<0.478 m/s²" 17 "<0.371 m/s²" 16 "<0.288 m/s²" 15 "<0.224 m/s²" 14 "<0.174 m/s²" 13 "<0.135 m/s²" 12 "<0.105 m/s²" 11 "<0.081 m/s²" 10 "<0.063 m/s²" 9 "<0.049 m/s²" 8 "<0.038 m/s²" 7 "<0.029 m/s²" 6 "<0.023 m/s²" 5 "<0.018 m/s²" 4 "<0.014 m/s²" 3 "<0.011 m/s²" 2 "<0.008 m/s²" 1 "<0.006 m/s²" 0 "<0.005 m/s²" ;
+VAL_ 1548 Obj_ArelLong_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
+VAL_ 1548 Obj_ArelLat_rms 31 "Invalid" 30 "<10.000 m/sï¿½" 29 "<7.762 m/sï¿½" 28 "<6.025 m/sï¿½" 27 "<4.676 m/sï¿½" 26 "<3.630 m/sï¿½" 25 "<2.817 m/sï¿½" 24 "<2.187 m/sï¿½" 23 "<1.697 m/sï¿½" 22 "<1.317 m/sï¿½" 21 "<1.023 m/sï¿½" 20 "<0.794 m/sï¿½" 19 "<0.616 m/sï¿½" 18 "<0.478 m/sï¿½" 17 "<0.371 m/sï¿½" 16 "<0.288 m/sï¿½" 15 "<0.224 m/sï¿½" 14 "<0.174 m/sï¿½" 13 "<0.135 m/sï¿½" 12 "<0.105 m/sï¿½" 11 "<0.081 m/sï¿½" 10 "<0.063 m/sï¿½" 9 "<0.049 m/sï¿½" 8 "<0.038 m/sï¿½" 7 "<0.029 m/sï¿½" 6 "<0.023 m/sï¿½" 5 "<0.018 m/sï¿½" 4 "<0.014 m/sï¿½" 3 "<0.011 m/sï¿½" 2 "<0.008 m/sï¿½" 1 "<0.006 m/sï¿½" 0 "<0.005 m/sï¿½" ;
 VAL_ 1548 Obj_VrelLong_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1548 Obj_VrelLat_rms 31 "Invalid" 30 "<10.000 m/s" 29 "<7.762 m/s" 28 "<6.025 m/s" 27 "<4.676 m/s" 26 "<3.630 m/s" 25 "<2.817 m/s" 24 "<2.187 m/s" 23 "<1.697 m/s" 22 "<1.317 m/s" 21 "<1.023 m/s" 20 "<0.794 m/s" 19 "<0.616 m/s" 18 "<0.478 m/s" 17 "<0.371 m/s" 16 "<0.288 m/s" 15 "<0.224 m/s" 14 "<0.174 m/s" 13 "<0.135 m/s" 12 "<0.105 m/s" 11 "<0.081 m/s" 10 "<0.063 m/s" 9 "<0.049 m/s" 8 "<0.038 m/s" 7 "<0.029 m/s" 6 "<0.023 m/s" 5 "<0.018 m/s" 4 "<0.014 m/s" 3 "<0.011 m/s" 2 "<0.008 m/s" 1 "<0.006 m/s" 0 "<0.005 m/s" ;
 VAL_ 1548 Obj_Orientation_rms 31 "Invalid" 30 "<180.000 deg" 29 "<126.881 deg" 28 "<89.437 deg" 27 "<63.044 deg" 26 "<44.439 deg" 25 "<31.325 deg" 24 "<22.081 deg" 23 "<15.565 deg" 22 "<10.971 deg" 21 "<7.734 deg" 20 "<5.451 deg" 19 "<3.843 deg" 18 "<2.709 deg" 17 "<1.909 deg" 16 "<1.346 deg" 15 "<0.949 deg" 14 "<0.669 deg" 13 "<0.471 deg" 12 "<0.332 deg" 11 "<0.234 deg" 10 "<0.165 deg" 9 "<0.116 deg" 8 "<0.082 deg" 7 "<0.058 deg" 6 "<0.041 deg" 5 "<0.029 deg" 4 "<0.020 deg" 3 "<0.014 deg" 2 "<0.010 deg" 1 "<0.007 deg" 0 "<0.005 deg" ;

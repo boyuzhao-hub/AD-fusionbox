@@ -9,6 +9,9 @@
 
   <depend>rclpy</depend>
   <depend>rosbag2_py</depend>
+  
+  <!-- Self dependency -->
+  <depend>drivers</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
