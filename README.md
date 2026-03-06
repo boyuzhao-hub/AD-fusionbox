@@ -2,15 +2,6 @@
 A sensors - vehicle data fusion box based on ROS2 Humble
 
 ## Hardwares
-<style type="text/css">
-.tg { border-collapse: collapse; border-spacing: 0; width: 100%; margin: 10px 0; }
-.tg td, .tg th { border: 1px solid #d0d7de; padding: 12px 8px; font-size: 14px; color: #24292f; }
-.tg .tg-0pky { vertical-align: top; text-align: left; font-weight: normal; }
-.tg .tg-bold { vertical-align: top; text-align: left; font-weight: bold; background-color: #f6f8fa; }
-.tg a { color: #0969da; text-decoration: none; font-weight: 500; }
-.tg a:hover { text-decoration: underline; }
-</style>
-
 <table class="tg">
 <tbody>
 <tr>
