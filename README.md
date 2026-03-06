@@ -2,18 +2,64 @@
 A sensors - vehicle data fusion box based on ROS2 Humble
 
 ## Hardwares
-Computers - Heterogeneous computing
-- Perception Layer: Jetson AGX Orin 64 GB
-- Decision Layer: ARK 2251
+<style type="text/css">
+.tg { border-collapse: collapse; border-spacing: 0; width: 100%; margin: 10px 0; }
+.tg td, .tg th { border: 1px solid #d0d7de; padding: 12px 8px; font-size: 14px; color: #24292f; }
+.tg .tg-0pky { vertical-align: top; text-align: left; font-weight: normal; }
+.tg .tg-bold { vertical-align: top; text-align: left; font-weight: bold; background-color: #f6f8fa; }
+.tg a { color: #0969da; text-decoration: none; font-weight: 500; }
+.tg a:hover { text-decoration: underline; }
+</style>
 
-Sensors:
-- 4 $\times$ Continental SRR3-A Short Range Radar,
-- 4 $\times$ ZED X Stereo Cameras,
-- 1 $\times$ Continental SC13S 6-DoF IMU,
-- 2 $\times$ RTK GNSS
-
-Vechicle:
-- Nissan LEAF MY2012
+<table class="tg">
+<tbody>
+<tr>
+<td class="tg-bold">Vehicle</td>
+<td class="tg-0pky">1 &times; Nissan LEAF MY2012</td>
+<td class="tg-0pky">
+<a href="https://docs.openvehicles.com/en/latest/components/vehicle_nissanleaf/docs/index.html" target="_blank">Nissan Leaf OpenVehicles</a>
+</td>
+</tr>
+<tr>
+<td class="tg-bold" rowspan="2">Computers</td>
+<td class="tg-0pky">Jetson AGX Orin 64 GB</td>
+<td class="tg-0pky">
+<a href="https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/index.html" target="_blank">Jetson AGX Orin Guide</a>
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">ARK 2251</td>
+<td class="tg-0pky">
+<a href="https://www.advantech.com/en-us/products/ark-2000_series_embedded_box_pcs/ark-2251/mod_de661626-e644-4813-a0f0-be7f006923c1">ARK2251 Datasheet</a>
+</td>
+</tr>
+<tr>
+<td class="tg-bold" rowspan="4">Sensors</td>
+<td class="tg-0pky">4 &times; Continental SRR3-A Short Range Radar</td>
+<td class="tg-0pky">
+<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiM1Yjs94qTAxVGgv0HHbzaOP0QFnoECBAQAQ&url=https%3A%2F%2Fwww.freecon.co.kr%2F%3Fact%3Dcommon.download_goods%26fseq%3D587%26u%3Dmanual&usg=AOvVaw2fEY5i-01AC0OZ5UTRRtOW&opi=89978449">SRR308 Datasheet</a>
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">4 &times; ZED X Stereo Camera (with IMU)</td>
+<td class="tg-0pky">
+<a href="https://cdn.sanity.io/files/s18ewfw4/staging/ec78a504b36ab95d6620ac720ffa5feaa2e8948b.pdf/ZED%20X%20Datasheet%20v1.2.pdf">ZED X Datasheet</a>
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">1 &times; Continental SC13S 6-DoF IMU</td>
+<td class="tg-0pky">
+<a href="https://www.continental-aftermarket.com/media/3746/continental_inertialsensor6dof_salessheet_v1.pdf">SC13S Datasheet</a>
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">2 &times; RTK GNSS (Syslogic RMLA4AGX64-h202S)</td>
+<td class="tg-0pky">
+<a href="https://www.syslogic.com/jetson-agx-orin/rugged-edge-ai-computer-rpc-rml-a4agx">Syslogic RMLA4AGX64 Datasheet</a>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## This repo
 - msgs: All self-defined ```.msg```, ```.srv```, ```.action```.
