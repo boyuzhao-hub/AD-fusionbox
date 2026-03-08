@@ -1,7 +1,7 @@
 # AD-fusionbox
-An omnidirectional **Sensors - Vehicle Data Fusion Box** based on ROS2 Humble
+A heterogeneous, omnidirectional **Sensor - Vehicle Data Fusion Box** based on ROS 2 Humble
 
-## Hardwares
+## Hardware
 <table class="tg">
 <tbody>
 <tr>
@@ -54,21 +54,45 @@ An omnidirectional **Sensors - Vehicle Data Fusion Box** based on ROS2 Humble
 </tbody>
 </table>
 
-## Hardware Topology
+### Topology
 ![Hardware Topology](./docs/assets/hardware_topology.drawio.svg)
 
 ## Software Architecture
 To be finalized.
 
 
-## This Repository
-- src: Source code    
-  - msgs: All self-defined ```.msg```, ```.srv```, ```.action```.
-  - drivers: Read and publish ROS2 Topic of ZED SDK, Radars, GNSS, etc data.
-  - perception: Perception algorithm. Subscribe sensors data and execute object detection, object trajectory, snesor fusion, etc.
-  - localizaiton: Localization algorithm. Subscribe IMU, GNSS, Visual Odometry, etc for accurate pose.
-  - bringup: System start-up configurations, including ```.launch.py```, or ```.yaml``` etc.
-  - offline: Offline ros2bag data analysis.
+## Repository Structure
+```text
+├── src/
+│   ├── bringup/                # System start-up configurations (launch files, parameters, etc)
+│   ├── drivers/                # Hardware interfaces (ZED SDK, CAN parsers, GNSS, etc)
+│   ├── localization/           # State estimation (IMU, GNSS, Visual Odometry, etc)
+│   ├── perception/             # Perception and fusion algorithms (object detection, radar tracking, sensor fusion)
+│   ├── offline/                # Tools and scripts for offline rosbag2 data analysis and evaluation
+│   └── msgs/                   # Custom ROS 2 interfaces (.msg, .srv, .action files)
+├── docs/
+│   ├── assets/                 # Images, architecture diagrams, and hardware topology charts
+│   ├── datasheets/             # Official hardware manuals and specifications (ZED, Radar, IPC)
+│   └── wiki/                   # Knowledge base, tutorials (e.g., DBC parsing, PTP setup) and API docs
+└── README.md                   # Project overview and quick-start guide
+```
 
-## Documents
-- [Understand the DBC File](./docs/understand_dbc_file.md)
+## Tutorials & Knoledge Base
+To help readers quickly understand basic concepts related to this topic, several detailed guides are provided for reference.
+- [Understand the DBC File](./docs/wiki/understand_dbc_file.md)
+
+## 🚀 Getting Started
+### Prerequisites
+* Ubuntu 22.04 LTS
+* ROS 2 Humble
+* CUDA 11.x & TensorRT (for Jetson)
+
+### Installation
+To be finalized.
+
+## Usage
+* Connect the sensors and ensure PTP is synced between Jetson and ARK.
+* Source the workspace: source install/setup.bash
+* Launch the core system
+  
+To be finalized.
