@@ -83,7 +83,7 @@ To help readers quickly understand basic concepts related to this topic, several
 
 ## 🚀 Getting Started
 ### Prerequisites
-* Jetpack 6.2.2
+* JetPack 6.2.2
 * ROS 2 Humble
 * CUDA 12.6
 * Ubuntu 22.04 LTS
