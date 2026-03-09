@@ -83,9 +83,10 @@ To help readers quickly understand basic concepts related to this topic, several
 
 ## 🚀 Getting Started
 ### Prerequisites
-* Ubuntu 22.04 LTS
+* Jetpack 6.2.2
 * ROS 2 Humble
-* CUDA 11.x & TensorRT (for Jetson)
+* CUDA 12.6
+* Ubuntu 22.04 LTS
 
 ### Installation
 To be finalized.
