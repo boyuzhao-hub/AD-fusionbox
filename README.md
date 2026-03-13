@@ -83,9 +83,9 @@ To be finalized.
 To help readers quickly understand basic concepts related to this topic, several detailed guides are provided for reference.
 ### Sensors
 - [Understand the DBC File](./docs/wiki/understand_dbc_file.md)
-- [What is RTK GNSS?]
+- [How RTK GNSS Delivers Superior Performance](./docs/wiki/rtk_gnss.md)
 ### ROS 2
-- [What is serialization in ROS 2?](./docs/wiki/ros2_message_serialization.md)
+- [What is Serialization in ROS 2?](./docs/wiki/ros2_message_serialization.md)
 
 ## 🚀 Getting Started
 ### Prerequisites

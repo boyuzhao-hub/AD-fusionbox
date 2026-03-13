@@ -1,4 +1,4 @@
-# What is serializaiton in ROS2?
+# What is Serializaiton in ROS2?
 
 ## RMW & DDS  
 **RMW** stands for **ROS Middlewar Interface**, which handles the interaction betwen Operating System and User Code. It acts as an abstraction layer, hiding the complex details of the underlying network implementation from the user.
