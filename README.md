@@ -58,8 +58,8 @@ A heterogeneous, omnidirectional **Sensor - Vehicle Data Fusion Box** based on R
 ![Hardware Topology](./docs/assets/Hardware_Topology.drawio.svg)
 
 ## Software Architecture
-### Flowchart
-![Sequence Diagram](./docs/assets/Software_Sequence_Diagram.drawio.svg)
+### Sequence Diagram
+<!--[Sequence Diagram](./docs/assets/Software_Sequence_Diagram.drawio.svg) -->
 To be finalized.
 
 
