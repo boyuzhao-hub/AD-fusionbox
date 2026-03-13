@@ -1,0 +1,23 @@
+data_pipeline:
+  # Topics dicqtionary to specify the topics of the system, in general, at the beginnging, there will be 
+  # 4 topics for 4 different radars.
+  # 1 topic for the IMU
+  # 1 topic for the RTK GNSS
+  # 4 topics for the 4 cameras (front, rear, left, right)
+  topics:
+    radar_can: '/can/can0/rx'
+    imu_raw: 'vectornav/imu'
+    gnss_rtk: '/gnss/rtk_fix'
+    camera_front: '/zed/zed_front/image_raw'
+
+  online_record:
+      max_bag_size: 10000000000
+      record_topics:
+        - "/can/can0/rx"
+        - "/vectornav/imu"
+
+  offline_read:
+      read_topics:
+        - "/can/can0/rx"           # dbc needed
+        - "/vectornav/imu"         # no dbc needed
+        - "/gnss/rtk_fix"          # no dbc needed

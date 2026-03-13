@@ -39,4 +39,4 @@ Now that we understand RMW and DDS, we can answer the main question. Before a RO
 3. **The Handoff:** When you call `publisher->publish(msg)`, your user code passes the in-memory object down to the RMW layer.
 4. **Serialization via CDR:** The RMW layer invokes the specific DDS vendor's serialization functions. Most DDS implementations use **CDR (Common Data Representation)** as their standard binary serialization format. The message is serialized into a CDR byte stream and transmitted over the network.
 
-By handling serialization at the middleware layer, ROS 2 ensures that a node written in C++ running on Linux can seamlessly communicate with a node written in Python running on Windows, as they both agree on how the data is packed and unpacked.
+By handling serialization at the middleware layer, ROS 2 ensures that a node written in C++ running on Linux can seamlessly communicate with a node written in Python running on Windows or vice versa, as they both agree on how the data is packed and unpacked.
