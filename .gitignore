@@ -213,3 +213,6 @@ log/
 # ROS 2 Bags datasets
 data/
 datasets/
+
+# Third party libraries
+src/zed-ros2-wrapper/

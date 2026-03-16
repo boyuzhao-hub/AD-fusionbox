@@ -1,5 +1,5 @@
 data_pipeline:
-  # Topics dicqtionary to specify the topics of the system, in general, at the beginnging, there will be 
+  # Topics dicqtionary to specify the topics of the system. In general, at the beginnging, there will be 
   # 4 topics for 4 different radars.
   # 1 topic for the IMU
   # 1 topic for the RTK GNSS

@@ -71,7 +71,8 @@ To be finalized.
 │   ├── localization/           # State estimation (IMU, GNSS, Visual Odometry, etc)
 │   ├── perception/             # Perception and fusion algorithms (object detection, radar tracking, sensor fusion)
 │   ├── offline/                # Tools and scripts for offline rosbag2 data analysis and evaluation
-│   └── msgs/                   # Custom ROS 2 interfaces (.msg, .srv, .action files)
+│   ├── msgs/                   # Custom ROS 2 interfaces (.msg, .srv, .action files)
+│   └── zed-ros2-wrapper/       # Thirdy party ros2_wrapper from ZED.
 ├── docs/
 │   ├── assets/                 # Images, architecture diagrams, and hardware topology charts
 │   ├── datasheets/             # Official hardware manuals and specifications (ZED, Radar, IPC)
