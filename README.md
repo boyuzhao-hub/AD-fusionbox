@@ -58,8 +58,8 @@ A heterogeneous, omnidirectional **Sensor - Vehicle Data Fusion Box** based on R
 ![Hardware Topology](./docs/assets/Hardware_Topology.drawio.svg)
 
 ## Software Architecture
-### Sequence Diagram
-<!--[Sequence Diagram](./docs/assets/Software_Sequence_Diagram.drawio.svg) -->
+### Driver Design
+![Driver Design](./docs/assets/Software_Driver_Architecture.png)
 To be finalized.
 
 
@@ -83,8 +83,8 @@ To be finalized.
 ## Tutorials & Knoledge Base
 To help readers quickly understand basic concepts related to this topic, several detailed guides are provided for reference.
 ### Sensors
-- [Understand the DBC File](./docs/wiki/understand_dbc_file.md)
-- [How RTK GNSS Delivers Superior Performance](./docs/wiki/rtk_gnss.md)
+- [How CAN Frame is organized? How to understand a dbc file?](./docs/wiki/understand_CAN_dbc_file.md)
+- [How RTK GNSS Delivers Superior Performance?](./docs/wiki/rtk_gnss.md)
 ### ROS 2
 - [What is Serialization in ROS 2?](./docs/wiki/ros2_message_serialization.md)
 
