@@ -15,7 +15,7 @@
 
 **DDS** stands for **Data Distribution Service**. It is a communication protocol standard designed for real-time and scalable data distribution in distributed systems. 
 
-A fundamental aspect of DDS is **QoS** (Quality of Service). QoS allows developers to implement fine-grained control over the characteristics and behavior of data communication (e.g., reliability, history, and durability). 
+A fundamental aspect of DDS is **QoS** (Quality of Service). QoS allows developers to implement fine-grained control over the characteristics and behavior of data communication (e.g., reliability, history, and durability). The available QoS option can be found [**here (QoS Compatibilities)**](https://docs.ros.org/en/humble/Concepts/Intermediate/About-Quality-of-Service-Settings.html#qos-compatibilities).
 
 The concepts and design of DDS are illustrated below:
 
@@ -23,8 +23,13 @@ The concepts and design of DDS are illustrated below:
 | :---: | :---: |
 | <img src="/docs/assets/ROS_2_DDS_Overview.jpg" alt="DDS Overview" width="100%"> | <img src="/docs/assets/ROS_2_DDS_publish_subscribe.webp" alt="DDS Publish-Subscribe Design" width="100%"> |
 
-> [!NOTE]  
-> **Further Reading:** A resource to understand DDS can be found here: <a href="https://erhanbakirhan.medium.com/introduction-to-dds-data-distribution-service-real-time-data-communication-made-easy-d6f4badddd6f" target="_blank">Introduction to DDS</a>.
+> [!NOTE]
+> ### 📚 Further Reading
+> 
+> * 📖 **[Introduction to DDS](https://erhanbakirhan.medium.com/introduction-to-dds-data-distribution-service-real-time-data-communication-made-easy-d6f4badddd6f)**
+>   *An overview of Data Distribution Service and real-time communication.*
+> * ⚙️ **[Creating an RMW Implementation](https://docs.ros.org/en/humble/Tutorials/Advanced/Creating-An-RMW-Implementation.html)**
+>   *Official ROS 2 Humble tutorial on middleware integration.*
 
 ## Serialization
 

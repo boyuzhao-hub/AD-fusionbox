@@ -18,7 +18,7 @@ class RosbagReader:
         Initializes the RosbagReader with the path to the bag file.
 
         :param bag_path: Path to the ROS 2 bag file.
-        :param config_yaml: Path to the YAML configuration file, where topics to read are specified.
+        :param pipeline_yaml: Path to the YAML configuration file, where topics to read are specified.
         :param storage_id: Storage Format.
         """
         if not os.path.exists(self.bag_path):

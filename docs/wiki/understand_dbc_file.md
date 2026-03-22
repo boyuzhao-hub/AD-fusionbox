@@ -2,9 +2,9 @@
 
 > [!NOTE]  
 > This article focuses on decoding the **Data field** of a CAN frame. If you are not familiar with the structure of a CAN message, please check the previous article: 
-> ⬅️ **[How the CAN Frame is Organized?](./can_frame_organization.md)**
+> ⬅️ **[How is a CAN Frame Structured?](./can_frame_structure.md)**
 
-The following fields are normally used in DBC file. For Python programming, [```cantools```](https://cantools.readthedocs.io/en/latest/) is a package to parse the CAN BUS data. 
+A CAN DBC file is a text file that contains information for decoding raw CAN data, which are defined different from different OEM. The following fields are normally used in DBC file. For Python programming, [```cantools```](https://cantools.readthedocs.io/en/latest/) is a package to parse the CAN BUS data. 
 - **NS_** (New Symbol) Claim the keywords that will be used in the dbc file.
 - **BS_** (Bus Speed) Define the Baud Rate of the CAN Bus. Normally it is configured in through hardware or ROS2 Driver.
 - **BU_** (Bus Unit) Define the ECU or hardware name that connected to the CAN Bus.

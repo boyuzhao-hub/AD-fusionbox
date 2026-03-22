@@ -83,11 +83,11 @@ To be finalized.
 ## Tutorials & Knoledge Base
 To help readers quickly understand basic concepts related to this topic, several detailed guides are provided for reference.
 ### Sensors
-- [How CAN Frame is organized?](./docs/wiki/understand_CAN_dbc_file.md)
+- [How is a CAN Frame Structured?](./docs/wiki/can_frame_structure.md)
 - [How to understand a dbc file?](./docs/wiki/understand_dbc_file.md)
 - [How RTK GNSS Delivers Superior Performance?](./docs/wiki/rtk_gnss.md)
 ### ROS 2
-- [What is Serialization in ROS 2?](./docs/wiki/ros2_message_serialization.md)
+- [What is Serialization in ROS 2? (incl. RMW, DDS)](./docs/wiki/ros2_message_serialization.md)
 
 ## 🚀 Getting Started
 ### Prerequisites

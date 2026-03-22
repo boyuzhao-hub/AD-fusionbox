@@ -1,4 +1,4 @@
-# How the CAN frame is organized?
+# How is a CAN Frame Structured?
 There are multiple variants of CAN exist currently, please refer the difference in the table below.
 
 | Property | Fault-tolerant CAN<br>(low-speed CAN) | Classical CAN 2.0<br>(high-speed CAN) | CAN FD<br>(Flexible Data-rate) | CAN XL |
@@ -18,7 +18,7 @@ Here, we talk about some details regarding classic CAN 2.0 with 11 bits idertifi
 | Field | Full Name | Bits | Description |
 | :--- | :--- | :--- | :--- |
 | **SOF** | Start of Frame | 1 | The Start of Frame is a 'dominant 0' to tell the other nodes that a CAN node intends to talk. |
-| **ID** | Standard Identifier | 11 | The ID is the frame identifier - lower values have higher priority. |
+| **ID** | Standard Identifier | 11 | The ID is the frame identifier - **lower values have higher priority**. |
 | **RTR** | Remote Transmission Request | 1 | The Remote Transmission Request indicates whether a node sends data or requests dedicated data from another node. |
 | **Control** | Control Field | 6 | The Control contains the Identifier Extension Bit (IDE) which is a 'dominant 0' for 11-bit. It also contains the 4-bit Data Length Code (DLC) that specifies the length of the data bytes to be transmitted (0 to 8 bytes). |
 | **Data** | Data Field | 0-64 | The Data contains the data bytes aka payload, which includes CAN signals that can be decoded for information. |

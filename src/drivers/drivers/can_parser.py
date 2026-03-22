@@ -5,7 +5,7 @@ from ament_index_python.packages import get_package_share_directory
 from abc import ABC, abstractmethod
 
 
-class BaseDBCParser:
+class BaseDBCParser(ABC):
     """
     A class to parse radar DBC files and extract message definitions according to the customized rules in ./bringup/config/rules.
     """
