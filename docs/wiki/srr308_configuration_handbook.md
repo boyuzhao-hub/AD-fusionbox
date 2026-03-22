@@ -1,5 +1,8 @@
 # Continental SRR308-21 Configuration
 
+> [!NOTE]
+> The following notes are my personal interpretations based on the official ARS408-21 Radar technical manual.
+> 
 Continental SRR308-21 Radar is able to provide two outputs with up to 8 radars co-work configuration.
 - **Clusters** radar reflections with information (position, velocity and signal strength)
 - **Objects** are tracked clusters which have history and dimension information.
@@ -32,7 +35,6 @@ Continental SRR308-21 Radar is able to provide two outputs with up to 8 radars c
   - Message ```Obj_3_Extended``` only sent out if signal ```RadarCfg_SendExtInfo``` is activated, which contains additional object properties.
   - Message ```Obj_4_Warning``` only sent out if message ```CollDetCfg``` is activated, which contains the collision detection warning state.
   - Note: if multiple clusters exist, all the messages of type Obj_1_General are sent firstly and afterwards Obj_2_Quality and afterwards Obj_3_Extended and then Obj_4_Warning.
-
 
 ## Input
 - Message ```SpeedInformation``` evaluate vehicle speed, is used to determine the movemnet of detecdted clusters and objects.

@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.8)
 project(msgs)
 
+find_package(rosidl_default_generators REQUIRED)
+find_package(std_msgs REQUIRED)
+
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
@@ -24,3 +27,11 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/RadarCluster.msg"
+  "msg/RadarClusterList.msg"
+  "msg/RadarObject.msg"
+  "msg/RadarObjectList.msg"
+  DEPENDENCIES std_msgs
+)
