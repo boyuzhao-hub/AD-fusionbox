@@ -58,8 +58,8 @@ A heterogeneous, omnidirectional **Sensor - Vehicle Data Fusion Box** based on R
 ![Hardware Topology](./docs/assets/Hardware_Topology.drawio.svg)
 
 ## Software Architecture
-### Driver Design
-![Driver Design](./docs/assets/Softwar_Driver_Architecture.svg)
+### Driver Architecture
+![Driver Design](./docs/assets/Software_Driver_Architecture.svg)
 To be finalized.
 
 
