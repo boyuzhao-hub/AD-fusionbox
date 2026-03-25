@@ -89,6 +89,9 @@ To help readers quickly understand basic concepts related to this topic, several
 ### ROS 2
 - [What is Serialization in ROS 2? (incl. RMW, DDS)](./docs/wiki/ros2_message_serialization.md)
 
+### Hardware Notes
+- [How to configure Continental Radar SRR308-21?](./docs/wiki/srr308_configuration_handbook.md)
+  
 ## 🚀 Getting Started
 ### Prerequisites
 * JetPack 6.2.2
