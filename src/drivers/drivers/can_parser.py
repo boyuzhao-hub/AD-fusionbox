@@ -89,6 +89,23 @@ class RadarDBCParser(BaseDBCParser):
 
         return filtered_data
 
+    def encode_command(self, command_name: str, command_data: dict) -> (int, bytes):
+        """
+        Encodes a command into CAN message ID and data bytes according to the DBC file.
+
+        :param command_name: The name of the command to encode.
+        :param command_data: A dictionary containing the command fields and their values.
+        :return: A tuple containing the CAN message ID and the encoded data bytes. (CAN_ID, CAN_DATA IN BYTES)
+        """
+        msg_definition = self.dbc_file.get_message_by_name(command_name)
+        if not msg_definition:
+            raise ValueError(f"Command '{command_name}' not found in DBC file.")
+
+        can_msg_id = msg_definition.frame_id
+        can_data = self.dbc_file.encode_message(command_name, command_data)
+
+        return can_msg_id, can_data
+
 
 ## Test
 if __name__ == "__main__":
