@@ -17,38 +17,38 @@ A heterogeneous, omnidirectional **Sensor - Vehicle Data Fusion Box** based on R
 <td class="tg-0pky">
 <a href="https://developer.nvidia.com/embedded/learn/jetson-agx-orin-devkit-user-guide/index.html" target="_blank">Jetson AGX Orin Guide</a>
 <br/>
-<a href="./docs/hardware/Computer_Jetson_AGX_Orin_Module_Carrier_Board_Specification.pdf" target="_blank">Jetson AGX Orin Board Specifications</a>
+<a href="./docs/datasheets/Computer_Jetson_AGX_Orin_Module_Carrier_Board_Specification.pdf" target="_blank">Jetson AGX Orin Board Specifications</a>
 </td>
 </tr>
 <tr>
 <td class="tg-0pky">1 &times; ARK 2251</td>
 <td class="tg-0pky">
-<a href="./docs/hardware/Computer_ARK_2251_Datasheet.pdf">ARK2251 Datasheet</a>
+<a href="./docs/wiki/Computer_ARK_2251_Datasheet.pdf">ARK2251 Datasheet</a>
 </td>
 </tr>
 <tr>
 <td class="tg-bold" rowspan="4"><b>Sensors</b></td>
 <td class="tg-0pky">4 &times; Continental SRR3-A Short Range Radar</td>
 <td class="tg-0pky">
-<a href="./docs/hardware/Sensor_SRR308_Datasheet.pdf">SRR308 Datasheet</a>
+<a href="./docs/wiki/Sensor_SRR308_Datasheet.pdf">SRR308 Datasheet</a>
 </td>
 </tr>
 <tr>
 <td class="tg-0pky">4 &times; ZED X Stereo Camera (with IMU)</td>
 <td class="tg-0pky">
-<a href="./docs/hardware/Sensor_ZED_X_Datasheet.pdf">ZED X Datasheet</a>
+<a href="./docs/wiki/Sensor_ZED_X_Datasheet.pdf">ZED X Datasheet</a>
 </td>
 </tr>
 <tr>
 <td class="tg-0pky">1 &times; Continental SC13S 6-DoF IMU</td>
 <td class="tg-0pky">
-<a href="./docs/hardware/Sensor_IMU_SC13S.pdf">SC13S Datasheet</a>
+<a href="./docs/wiki/Sensor_IMU_SC13S.pdf">SC13S Datasheet</a>
 </td>
 </tr>
 <tr>
 <td class="tg-0pky">2 &times; RTK GNSS (Syslogic RMLA4AGX64-h202S)</td>
 <td class="tg-0pky">
-<a href="./docs/hardware/Sensor_GNSS_ accessing_GNSS_on_Syslogic_systems.pdf">Syslogic RMLA4AGX64 Datasheet</a>
+<a href="./docs/wiki/Sensor_GNSS_ accessing_GNSS_on_Syslogic_systems.pdf">Syslogic RMLA4AGX64 Datasheet</a>
 </td>
 </tr>
 </tbody>
