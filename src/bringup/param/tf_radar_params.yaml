@@ -1,0 +1,7 @@
+# config/radar_setup.yaml
+radar_geometry:
+  alpha_deg: 45.0      # (Degree) Angle between the front radars and the forward direction of the vehicle
+  beta_deg: 60.0       # (Degree) Angle between the rear radars and the backward direction of the vehicle
+  height: 0.1          # (meter) Height of the radars from the box ground (assuming all radars are at the same height)
+  front_distance: 0.5  # (meter) Distance from the front radars to the center of the vehicle
+  rear_distance: 0.5   # (meter) Distance from the rear radars to the center of the vehicle
