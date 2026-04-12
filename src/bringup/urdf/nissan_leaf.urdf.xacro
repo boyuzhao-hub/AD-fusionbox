@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="nissan_leaf">
+
+    <xacro:include filename="$(find bringup)/urdf/sensor_box.urdf.xacro" />
+
+    <link name="base_link" />
+
+    <link name="chassis"> # To visually represent the vehicle body
+        <visual>
+            <origin xyz="1.35 0 0.77" rpy="0 0 0" />
+            <geometry>
+                <box size="4.4 1.77 1.5" />
+            </geometry>
+            <material name="blue">            
+                <color rgba="0 0 0.8 0.3" />
+            </material>
+        </visual>
+    </link>
+
+    <joint name="base_to_chassis" type="fixed">
+        <parent link="base_link" />
+        <child link="chassis" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </joint>
+
+    <xacro:sensor_box parent="base_link">
+        <origin xyz="1.2 0 1.7" rpy="0 0 0" />
+    </xacro:sensor_box>
+
+</robot>

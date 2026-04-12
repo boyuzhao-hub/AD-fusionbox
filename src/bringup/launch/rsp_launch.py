@@ -6,8 +6,7 @@ import xacro
 
 def generate_launch_description():
     # Find the path to the Xacro file
-    pkg_name = 'bringup'
-    xacro_file = os.path.join(get_package_share_directory(pkg_name), 'urdf', 'box.urdf.xacro')
+    xacro_file = os.path.join(get_package_share_directory('bringup'), 'urdf', 'nissan_leaf.urdf.xacro')
 
     # Process the Xacro file to get the robot description
     robot_description_config = xacro.process_file(xacro_file)
