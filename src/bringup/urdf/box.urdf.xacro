@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_autonomous_vehicle">
+
+    <link name="base_link" />
+
+    <xacro:property name="config_file" value="$(find bringup)/param/tf_sensors_params.yaml" />
+    <xacro:property name="geom" value="${xacro.load_yaml(config_file)['sensor_geometry']}" />
+    <xacro:property name="rg" value="${geom['radar_geometry']}" />
+    <xacro:property name="cg" value="${geom['camera_geometry']}" />
+
+    <xacro:property name="f_dist" value="${rg['front_distance']}" />
+    <xacro:property name="r_dist" value="${rg['rear_distance']}" />
+    <xacro:property name="h" value="${rg['height']}" />
+
+    <xacro:property name="f_yaw_rad" value="${math.radians(rg['front_yaw_deg'])}" />
+    <xacro:property name="r_yaw_rad" value="${math.radians(rg['rear_yaw_deg'])}" />
+    
+    <xacro:property name="f_pitch" value="${math.radians(rg['front_pitch_deg'])}" />
+    <xacro:property name="r_pitch" value="${math.radians(rg['rear_pitch_deg'])}" />
+    <xacro:property name="f_roll" value="${math.radians(rg['front_roll_deg'])}" />
+    <xacro:property name="r_roll" value="${math.radians(rg['rear_roll_deg'])}" />
+
+    <link name="radar_front_left" />
+    <joint name="base_to_radar_fl" type="fixed">
+        <parent link="base_link"/>
+        <child link="radar_front_left"/>
+        <origin xyz="${f_dist * math.cos(f_yaw_rad)} ${f_dist * math.sin(f_yaw_rad)} ${h}" 
+                rpy="${f_roll} ${f_pitch} ${f_yaw_rad}" />
+    </joint>
+
+    <link name="radar_front_right" />
+    <joint name="base_to_radar_fr" type="fixed">
+        <parent link="base_link"/>
+        <child link="radar_front_right"/>
+        <origin xyz="${f_dist * math.cos(-f_yaw_rad)} ${f_dist * math.sin(-f_yaw_rad)} ${h}" 
+                rpy="${f_roll} ${f_pitch} ${-f_yaw_rad}" />
+    </joint>
+
+    <link name="radar_rear_left" />
+    <joint name="base_to_radar_rl" type="fixed">
+        <parent link="base_link"/>
+        <child link="radar_rear_left"/>
+        <origin xyz="${-r_dist * math.cos(r_yaw_rad)} ${r_dist * math.sin(r_yaw_rad)} ${h}" 
+                rpy="${r_roll} ${r_pitch} ${math.pi - r_yaw_rad}" />
+    </joint>
+
+    <link name="radar_rear_right" />
+    <joint name="base_to_radar_rr" type="fixed">
+        <parent link="base_link"/>
+        <child link="radar_rear_right"/>
+        <origin xyz="${-r_dist * math.cos(-r_yaw_rad)} ${r_dist * math.sin(-r_yaw_rad)} ${h}" 
+                rpy="${r_roll} ${r_pitch} ${-math.pi + r_yaw_rad}" />
+    </joint>
+
+    <xacro:include filename="$(find zed_wrapper)/urdf/zed_macro.urdf.xacro" />
+
+    <xacro:zed_camera name="zed_front" model="zedx">
+        <gnss_origin/>
+    </xacro:zed_camera>
+    
+    <joint name="zed_front_mount_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="zed_front_camera_link" />
+        <origin xyz="${cg['front_distance']} 0.0 ${cg['height']}" rpy="0 0 0" />
+    </joint>
+
+    <xacro:zed_camera name="zed_rear" model="zedx">
+        <gnss_origin/>
+    </xacro:zed_camera>
+    
+    <joint name="zed_rear_mount_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="zed_rear_camera_link" />
+        <origin xyz="${-cg['rear_distance']} 0.0 ${cg['height']}" rpy="0 0 ${math.pi}" />
+    </joint>
+
+    <xacro:zed_camera name="zed_left" model="zedx">
+        <gnss_origin/>
+    </xacro:zed_camera>
+    
+    <joint name="zed_left_mount_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="zed_left_camera_link" />
+        <origin xyz="0.0 ${cg['left_distance']} ${cg['height']}" rpy="0 0 ${math.pi/2}" />
+    </joint>
+
+    <xacro:zed_camera name="zed_right" model="zedx">
+        <gnss_origin/>
+    </xacro:zed_camera>
+    
+    <joint name="zed_right_mount_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="zed_right_camera_link" />
+        <origin xyz="0.0 ${-cg['right_distance']} ${cg['height']}" rpy="0 0 ${-math.pi/2}" />
+    </joint>
+</robot>
