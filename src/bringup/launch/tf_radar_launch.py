@@ -17,32 +17,40 @@ def generate_launch_description():
     with open(geometry_param_file, 'r') as f:
         geometry_params = yaml.safe_load(f)["radar_geometry"]
 
-    alpha_deg = geometry_params['alpha_deg']
-    beta_deg = geometry_params['beta_deg']
+    front_yaw_deg = geometry_params['front_yaw_deg']
+    rear_yaw_deg = geometry_params['rear_yaw_deg']
     height = geometry_params['height']
     front_distance = geometry_params['front_distance']
     rear_distance = geometry_params['rear_distance']
 
     # --- Translation ---
-    front_left_radar_x = front_distance * math.cos(math.radians(alpha_deg))
-    front_left_radar_y = front_distance * math.sin(math.radians(alpha_deg))
+    front_left_radar_x = front_distance * math.cos(math.radians(front_yaw_deg))
+    front_left_radar_y = front_distance * math.sin(math.radians(front_yaw_deg))
 
-    front_right_radar_x = front_distance * math.cos(math.radians(-alpha_deg))
-    front_right_radar_y = front_distance * math.sin(math.radians(-alpha_deg))
+    front_right_radar_x = front_distance * math.cos(math.radians(-front_yaw_deg))
+    front_right_radar_y = front_distance * math.sin(math.radians(-front_yaw_deg))
 
-    rear_left_radar_x = -rear_distance * math.cos(math.radians(beta_deg))
-    rear_left_radar_y = rear_distance * math.sin(math.radians(beta_deg))
+    rear_left_radar_x = -rear_distance * math.cos(math.radians(rear_yaw_deg))
+    rear_left_radar_y = rear_distance * math.sin(math.radians(rear_yaw_deg))
 
-    rear_right_radar_x = -rear_distance * math.cos(math.radians(-beta_deg))
-    rear_right_radar_y = rear_distance * math.sin(math.radians(-beta_deg))
+    rear_right_radar_x = -rear_distance * math.cos(math.radians(-rear_yaw_deg))
+    rear_right_radar_y = rear_distance * math.sin(math.radians(-rear_yaw_deg))
 
     # --- Yaw (transfer to radians) ---
     # front radars Yaw (facing forward)
-    yaw_front_left = math.radians(alpha_deg)
-    yaw_front_right = math.radians(-alpha_deg)
+    yaw_front_left = math.radians(front_yaw_deg)
+    yaw_front_right = math.radians(-front_yaw_deg)
     # rear radars Yaw (facing backward)
-    yaw_rear_left = math.radians(180.0 - beta_deg)
-    yaw_rear_right = math.radians(-180.0 + beta_deg)
+    yaw_rear_left = math.radians(180.0 - rear_yaw_deg)
+    yaw_rear_right = math.radians(-180.0 + rear_yaw_deg)
+
+    # --- Pitch (transfer to radians) ---
+    pitch_front = math.radians(geometry_params['front_pitch_deg'])
+    pitch_rear = math.radians(geometry_params['rear_pitch_deg'])
+
+    # --- Roll (transfer to radians) ---
+    roll_front = math.radians(geometry_params['front_roll_deg'])
+    roll_rear = math.radians(geometry_params['rear_roll_deg'])
 
     return LaunchDescription([
         # front left radar
@@ -55,8 +63,8 @@ def generate_launch_description():
                 '--y', str(front_left_radar_y), 
                 '--z', str(height),
                 '--yaw', str(yaw_front_left), 
-                '--pitch', '0', 
-                '--roll', '0', 
+                '--pitch', str(pitch_front), 
+                '--roll', str(roll_front), 
                 '--frame-id', 'base_link',
                 '--child-frame-id', 'radar_front_left'
             ]
@@ -72,8 +80,8 @@ def generate_launch_description():
                 '--y', str(front_right_radar_y),
                 '--z', str(height),
                 '--yaw', str(yaw_front_right),
-                '--pitch', '0',
-                '--roll', '0',
+                '--pitch', str(pitch_front),
+                '--roll', str(roll_front),
                 '--frame-id', 'base_link',
                 '--child-frame-id', 'radar_front_right'
             ]
@@ -89,8 +97,8 @@ def generate_launch_description():
                 '--y', str(rear_left_radar_y),
                 '--z', str(height),
                 '--yaw', str(yaw_rear_left),
-                '--pitch', '0',
-                '--roll', '0',
+                '--pitch', str(pitch_rear),
+                '--roll', str(roll_rear),
                 '--frame-id', 'base_link',
                 '--child-frame-id', 'radar_rear_left'
             ]
@@ -106,8 +114,8 @@ def generate_launch_description():
                 '--y', str(rear_right_radar_y),
                 '--z', str(height),
                 '--yaw', str(yaw_rear_right),
-                '--pitch', '0',
-                '--roll', '0',
+                '--pitch', str(pitch_rear),
+                '--roll', str(roll_rear),
                 '--frame-id', 'base_link',
                 '--child-frame-id', 'radar_rear_right'
             ]

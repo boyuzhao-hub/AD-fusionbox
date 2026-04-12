@@ -1,7 +1,14 @@
 # config/radar_setup.yaml
 radar_geometry:
-  alpha_deg: 45.0      # (Degree) Angle between the front radars and the forward direction of the vehicle
-  beta_deg: 60.0       # (Degree) Angle between the rear radars and the backward direction of the vehicle
+  front_yaw_deg: 45.0      # (Degree) Angle between the front radars and the forward direction of the vehicle, can be used to calculate yaw
+  rear_yaw_deg: 60.0       # (Degree) Angle between the rear radars and the backward direction of the vehicle, can be used to calculate yaw
+
+  front_pitch_deg: 0.0        # (Degree) Pitch angle of the front radars
+  rear_pitch_deg: 0.0         # (Degree) Pitch angle of the rear radars
+
+  front_roll_deg: 0.0         # (Degree) Roll angle of the front radars
+  rear_roll_deg: 0.0          # (Degree) Roll angle of the rear radars
+
   height: 0.1          # (meter) Height of the radars from the box ground (assuming all radars are at the same height)
   front_distance: 0.5  # (meter) Distance from the front radars to the center of the vehicle
   rear_distance: 0.5   # (meter) Distance from the rear radars to the center of the vehicle
