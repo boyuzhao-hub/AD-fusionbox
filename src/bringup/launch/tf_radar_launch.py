@@ -1,4 +1,4 @@
-# This is a discard filr for radar tf launch, which is a radar static transform publisher.
+# This is a discard file for radar tf launch, which is a radar static trans
 import math
 import yaml
 import os

@@ -22,7 +22,7 @@ In this specific design, the synchronization flow is as follows:
 ## Configuration Guide
 
 ### 1. On Syslogic (Master)
-First, synchronize the system time with the satellite via the u-blox antenna using `chrony`. Then, activate the PTP Master:
+First, synchronize the system time with the satellite via the u-blox antenna using `chrony`, which can be found [here](./rtk_gnss.md)  Then, activate the PTP Master:
 
 ```bash
 # Install required packages
